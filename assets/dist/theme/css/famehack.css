@@ -1,0 +1,27 @@
+:root{
+  --fh-pink:#E91E63; --fh-cyan:#00C7D9; --fh-white:#ffffff;
+  --fh-black:#0a0a0a; --fh-charcoal:#141414; --fh-gray:#9aa0a6;
+}
+
+/* Cards / containers */
+.fh-card { background:#121212; border:1px solid #1f1f1f; border-radius:16px; padding:18px; }
+
+/* Buttons */
+.fh-btn{display:inline-block;padding:.85rem 1.2rem;border-radius:12px;
+  font-weight:700;color:var(--fh-white);text-decoration:none;border:0;
+  background:linear-gradient(90deg,var(--fh-pink),var(--fh-cyan));
+}
+.fh-outline{background:transparent;border:1px solid var(--fh-gray);color:var(--fh-white)}
+
+/* Inputs */
+.fh-label{color:var(--fh-white);font-weight:600;margin-bottom:.35rem}
+.fh-input,.fh-textarea,.fh-select{width:100%;background:#090909;border:1px solid #1f1f1f;
+  color:var(--fh-white);border-radius:12px;padding:.85rem 1rem}
+.fh-textarea{min-height:140px}
+.fh-helper{color:var(--fh-gray);font-size:.9rem}
+.fh-success{color:#38d39f}.fh-error{color:#ff6b6b}
+
+/* Section accent */
+.fh-heading{color:var(--fh-pink)}
+.fh-grid{display:grid;gap:12px}
+@media(min-width:768px){.fh-grid-2{grid-template-columns:repeat(2,1fr)}}
