@@ -230,6 +230,7 @@ nav {
 .contactArea article p {
   background: var(--secondary-gradiant);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   width: max-content;
   font-size: 17px;
@@ -506,6 +507,7 @@ nav {
   -webkit-text-fill-color: transparent;
   text-transform: none;
   -webkit-background-clip: text;
+  background-clip: text;
   margin-top: 5px;
 }
 .aiana-button {
@@ -575,6 +577,7 @@ nav {
   background: var(--secondary-gradiant);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -640,6 +643,7 @@ nav {
   background: var(--secondary-gradiant);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 .aianaFeature-2 {
   display: flex;
@@ -666,6 +670,7 @@ nav {
   background: var(--secondary-gradiant);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
   width: 40%;
   position: absolute;
 }
@@ -701,6 +706,7 @@ nav {
 .slideInner .slide:nth-child(even) {
   background: var(--secondary-gradiant);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .slideInner .slide {
@@ -741,6 +747,7 @@ nav {
 #projects-tab button.active {
   background: var(--secondary-gradiant);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 #projects-content {
