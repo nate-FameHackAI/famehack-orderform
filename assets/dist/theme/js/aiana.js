@@ -8,12 +8,12 @@ $(document).ready(function () {
 
   const scrambleElement = $(".loaderText");
   const originalText = scrambleElement.data("original");
-  const totalDuration = 3500; // total duration in milliseconds
+  const totalDuration = 3000; // total duration in milliseconds
 
   animateToOriginal(scrambleElement, originalText, totalDuration);
   setTimeout(function () {
     $(".loader").addClass("loaded");
-  }, 3500);
+  }, 3000);
 
   var sideImgs = $(".sideImg img").get().reverse();
   const progressCounter = $(".progressSingle h2 span");
