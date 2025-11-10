@@ -1,10 +1,8 @@
+
 /* ===========================================================
-   FameHack.AI Theme Custom Styles
-   Author: FameHack.AI
-   Location: assets/dist/theme/css/famehack.css
+   FameHack.AI Theme Custom Styles (Updated - Taller Video Grid)
    =========================================================== */
 
-/* ---------- COLOR SYSTEM ---------- */
 :root {
   --fh-pink: #E91E63;
   --fh-cyan: #00C7D9;
@@ -14,18 +12,16 @@
   --fh-gray: #9aa0a6;
 }
 
-/* ---------- GENERAL ---------- */
+/* General styling */
 body {
   background-color: #0b0c17;
   color: var(--fh-white);
   font-family: "Poppins", sans-serif;
 }
 
-.fh-heading {
-  color: var(--fh-pink);
-  font-weight: 700;
-}
+.fh-heading { color: var(--fh-pink); font-weight: 700; }
 
+/* Card base */
 .fh-card {
   background: #121212;
   border: 1px solid #1f1f1f;
@@ -33,98 +29,33 @@ body {
   padding: 18px;
   transition: all 0.3s ease;
 }
+.fh-card:hover { transform: translateY(-3px); box-shadow: 0 10px 25px rgba(0,0,0,.3); }
 
-.fh-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0,0,0,.3);
-}
-
-/* ---------- BUTTONS ---------- */
+/* Buttons */
 .fh-btn {
   display: inline-block;
   padding: 0.85rem 1.2rem;
   border-radius: 12px;
   font-weight: 700;
   color: var(--fh-white);
-  text-decoration: none;
-  border: none;
   background: linear-gradient(90deg, var(--fh-pink), var(--fh-cyan));
+  border: none;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
+.fh-btn:hover { opacity: 0.9; transform: translateY(-1px); }
 
-.fh-btn:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
+/* Form */
+.fh-label { color: var(--fh-white); font-weight: 600; margin-bottom: .35rem; }
+.fh-input, .fh-textarea, .fh-select {
+  width: 100%; background: #090909; border: 1px solid #1f1f1f;
+  color: var(--fh-white); border-radius: 12px; padding: .85rem 1rem;
 }
+.fh-textarea { min-height: 140px; }
+.fh-helper { color: var(--fh-gray); font-size: .9rem; }
+.fh-success { color: #38d39f; } .fh-error { color: #ff6b6b; }
 
-.fh-outline {
-  background: transparent;
-  border: 1px solid var(--fh-gray);
-  color: var(--fh-white);
-}
-
-.fh-outline:hover {
-  border-color: var(--fh-pink);
-  color: var(--fh-pink);
-}
-
-/* ---------- FORM ELEMENTS ---------- */
-.fh-label {
-  color: var(--fh-white);
-  font-weight: 600;
-  margin-bottom: 0.35rem;
-}
-
-.fh-input,
-.fh-textarea,
-.fh-select {
-  width: 100%;
-  background: #090909;
-  border: 1px solid #1f1f1f;
-  color: var(--fh-white);
-  border-radius: 12px;
-  padding: 0.85rem 1rem;
-  transition: all 0.3s ease;
-}
-
-.fh-input:focus,
-.fh-textarea:focus,
-.fh-select:focus {
-  outline: none;
-  border-color: var(--fh-pink);
-  box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.25);
-}
-
-.fh-textarea {
-  min-height: 140px;
-}
-
-.fh-helper {
-  color: var(--fh-gray);
-  font-size: 0.9rem;
-}
-
-.fh-success {
-  color: #38d39f;
-}
-
-.fh-error {
-  color: #ff6b6b;
-}
-
-/* ---------- GRID SYSTEM ---------- */
-.fh-grid {
-  display: grid;
-  gap: 12px;
-}
-
-@media (min-width: 768px) {
-  .fh-grid-2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* ---------- PRICING SECTION ---------- */
+/* Pricing */
 .fh-pricing .fh-price {
   border-radius: 18px;
   padding: 22px 20px;
@@ -133,125 +64,95 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,.25);
   text-align: center;
 }
-
 .fh-pricing .fh-price.fh-featured {
   outline: 2px solid var(--fh-pink);
-  background: radial-gradient(
-      120% 120% at 100% 0,
-      rgba(233, 30, 99, .20),
-      transparent 60%
-    ),
-    #0f1224;
+  background: radial-gradient(120% 120% at 100% 0, rgba(233,30,99,.20), transparent 60%), #0f1224;
 }
-
 .fh-price .fh-price-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 8px;
+  display: flex; align-items: baseline; justify-content: center; gap: 8px;
   margin: 6px 0 16px;
 }
+.fh-price .fh-currency { font-weight: 800; font-size: 26px; }
+.fh-price .fh-amount { font-weight: 800; font-size: 52px; line-height: 1; }
+.fh-price .fh-cycle { color: var(--fh-gray); font-size: 12px; }
 
-.fh-price .fh-currency {
-  font-weight: 800;
-  font-size: 26px;
-}
-
-.fh-price .fh-amount {
-  font-weight: 800;
-  font-size: 52px;
-  line-height: 1;
-}
-
-.fh-price .fh-cycle {
-  color: var(--fh-gray);
-  font-size: 12px;
-}
-
-.fh-divider {
-  border-color: #2a2d45;
-  margin: 16px 0;
-}
-
-.fh-list {
-  color: var(--fh-white);
-  list-style: none;
-  padding-left: 0;
-  text-align: left;
-}
-
-.fh-list li {
-  position: relative;
-  margin: 6px 0;
-  padding-left: 22px;
-}
-
-.fh-list li::before {
-  content: "✔";
-  position: absolute;
-  left: 0;
-  color: var(--fh-cyan);
-  font-weight: bold;
-}
-
-/* ---------- ORDER FORM SECTION ---------- */
-#order {
-  padding: 80px 0;
-  background: #0d0f1f;
-}
-
-#order .fh-card {
-  background: #121428;
-}
-
-/* ---------- LINKS ---------- */
-a {
-  color: var(--fh-cyan);
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-a:hover {
-  color: var(--fh-pink);
-}
-
-/* ---------- FOOTER ---------- */
-footer {
-  background: #0a0c1b;
-  color: var(--fh-gray);
-  font-size: 0.85rem;
-  padding: 20px 0;
-  text-align: center;
-}
-
-footer a {
-  color: var(--fh-cyan);
-}
-footer a:hover {
-  color: var(--fh-pink);
-}
-
-/* ---------- ANIMATIONS ---------- */
-@keyframes fhPulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.05); opacity: 0.9; }
-  100% { transform: scale(1); opacity: 1; }
-}
-
-.fh-pulse {
-  animation: fhPulse 2s infinite;
-}
-
-/* ---------- UTILITIES ---------- */
-.text-center { text-align: center; }
-.text-right { text-align: right; }
-.text-left { text-align: left; }
-.mt-2 { margin-top: 0.5rem; }
-.mb-2 { margin-bottom: 0.5rem; }
-.mb-3 { margin-bottom: 1rem; }
-.pt-4 { padding-top: 1.5rem; }
-.gap-2 { gap: 0.5rem; }
+/* Order Section */
+#order { padding: 80px 0; background: #0d0f1f; }
+#order .fh-card { background: #121428; }
 
 /* ===========================================================
-   End FameHack.AI Custom Styles
+   PROJECTS / GALLERY (Taller 2×2 VIDEO GRID FIX)
    =========================================================== */
+.aiana-portfolio .d-flex.w-100.w-md-95 { gap: 24px; }
+.aiana-portfolio .d-flex.w-100.w-md-95 > .flex-grow-1 { width: 50%; min-width: 0; }
+
+.project-single {
+  position: relative;
+  height: auto !important;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #0f1224;
+}
+
+.project-single img,
+.project-single video,
+.project-single iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.project-single .projectInfo {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 14px 16px;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.65) 100%);
+}
+
+@media (max-width: 767.98px) {
+  .aiana-portfolio .d-flex.w-100.w-md-95 { flex-direction: column; gap: 18px; }
+  .aiana-portfolio .d-flex.w-100.w-md-95 > .flex-grow-1 { width: 100%; }
+}
+
+/* Footer */
+footer { background: #0a0c1b; color: var(--fh-gray); font-size: .85rem; padding: 20px 0; text-align: center; }
+footer a { color: var(--fh-cyan); } footer a:hover { color: var(--fh-pink); }
+
+/* Utility */
+.text-center { text-align: center; }
+
+/* === Gallery videos: show full frame (no cropping) =================== */
+/* Let aspect-ratio (set via JS) control the box; remove fixed heights */
+.project-single{
+  position: relative;
+  height: auto !important;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #0f1224;
+}
+
+/* Show full frame, no crop */
+.project-single video{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain !important;
+  object-position: center center;
+  background: transparent; /* avoids visible “frame” if video has built-in bars */
+}
+
+/* Keep overlay text anchored */
+.project-single .projectInfo{
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 14px 16px;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.65) 100%);
+}
+
+/* Fallback if a very old browser lacks aspect-ratio support */
+@supports not (aspect-ratio: 1 / 1){
+  .project-single{ height: 0 !important; padding-top: 56.25%; } /* ~16:9 */
+  .project-single video{ position: absolute; inset: 0; }
+}
+
