@@ -5,6 +5,12 @@ $(document).ready(function () {
       start: "top center",
     },
   });
+
+  const scrambleElement = $(".loaderText");
+  const originalText = scrambleElement.data("original");
+  const totalDuration = 3000; // total duration in milliseconds
+
+  animateToOriginal(scrambleElement, originalText, totalDuration);
   setTimeout(function () {
     $(".loader").addClass("loaded");
   }, 3000);
@@ -457,7 +463,6 @@ $(document).ready(function () {
     $(".accordion-item img").removeClass("active");
     if ($(this).hasClass("collapsed")) {
       img.removeClass("active");
-      fffffff;
     } else {
       img.addClass("active");
     }
@@ -518,9 +523,6 @@ $(document).ready(function () {
     }, intervalTime);
   }
 
-  const scrambleElement = $(".loaderText");
-  const originalText = scrambleElement.data("original");
-  const totalDuration = 2000; // total duration in milliseconds
 
   animateToOriginal(scrambleElement, originalText, totalDuration);
 

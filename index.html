@@ -1,217 +1,131 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FameHack.AI - Landing Page</title>
-
-    <!-- Swiper styles -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <!-- Shader Effect styles -->
-    <link
-      rel="stylesheet"
-      href="assets/dist/lib/swiperSlider/swiper-gl.min.css"
-    />
-
-    <!-- font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="assets/dist/framework/bootstrap/css/bootstrap.min.css"
-    />
-
-    <!-- Theme Files -->
-    <link rel="stylesheet" href="assets/dist/theme/css/color.css" />
-    <link rel="stylesheet" href="assets/dist/theme/css/theme.css" />
-    <link rel="stylesheet" href="assets/dist/theme/css/responsive.css" />
-    <link rel="stylesheet" href="assets/dist/theme/css/animation.css" />
-    <link rel="stylesheet" href="assets/dist/theme/css/famehack.css" />
-  </head>
-  <body class="position-relative">
-    <div class="loader">
-      <h1 class="loaderText" data-original="famehack">loading</h1>
-    </div>
-
-    <div id="scroll-content">
-      <div class="overflow-hidden">
-        <!-- aiana header -->
-        <header id="top">
-          <!-- navigation -->
-          <nav class="d-flex align-items-center flex-wrap">
-            <!-- logo  -->
-            <div class="navBrand">
-              <a class="navbar-brand" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font: medium bold;" href="#">
-                <img src="assets/images/hero/logo.png" class="d-inline-block small" alt="Logo" />
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>FameHack.AI - Landing Page</title>
+<!-- Swiper styles -->
+<link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+<!-- Shader Effect styles -->
+<link href="assets/dist/lib/swiperSlider/swiper-gl.min.css" rel="stylesheet"/>
+<!-- font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+<!-- Bootstrap -->
+<link href="assets/dist/framework/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Theme Files -->
+<link href="assets/dist/theme/css/color.css" rel="stylesheet"/>
+<link href="assets/dist/theme/css/theme.css" rel="stylesheet"/>
+<link href="assets/dist/theme/css/responsive.css" rel="stylesheet"/>
+<link href="assets/dist/theme/css/animation.css" rel="stylesheet"/>
+<link href="assets/dist/theme/css/famehack.css" rel="stylesheet"/>
+</head>
+<body class="position-relative">
+<div class="loader">
+<h1 class="loaderText" data-original="famehack">loading</h1>
+</div>
+<div id="scroll-content">
+<div class="overflow-hidden">
+<!-- aiana header -->
+<header id="top">
+<!-- navigation -->
+<nav class="d-flex align-items-center flex-wrap">
+<!-- logo  -->
+<div class="navBrand">
+<a class="navbar-brand" href="#top" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font: medium bold;">
+<img alt="Logo" class="d-inline-block small" src="assets/images/hero/logo.png"/>
                 FameHack.AI
               </a>
-            </div>
-
-            <!-- Aiana menu -->
-            <ul
-              class="navMenu aiana-d-md-none aiana-menu list-unstyled d-flex align-items-center flex-grow-1 justify-content-center"
-            >
-              <li class="anchorHover">
-                <a href="#top">Home</a>
-                <span class="sup"></span>
-                <span class="dup"></span>
-              </li>
-              <li class="anchorHover">
-                <a href="#projects">projects</a> <span class="sup"></span>
-                <span class="dup"></span>
-              </li>
-              <li class="anchorHover">
-                <a href="#gallery">Gallery</a> <span class="sup"></span>
-                <span class="dup"></span>
-              </li>
-              <li class="anchorHover">
-                <a href="#video">Video</a> <span class="sup"></span>
-                <span class="dup"></span>
-              </li>
-              <li class="anchorHover">
-                <a href="#blog">Blog</a> <span class="sup"></span>
-                <span class="dup"></span>
-              </li>
-              <li class="anchorHover">
-                <a href="#order">Order</a> <span class="sup"></span>
-                <span class="dup"></span>
-              </li>
-
-            </ul>
-
-            <!-- aiana SOcial -->
-            <ul class="aiana-social sm-sm-none list-unstyled d-flex">
-              <li>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              </li>
-            </ul>
-
-            <!-- aiana Helpline -->
-            <div class="aiana-d-md-none contactArea">
-              <div class="shoppingBag">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </div>
-
-              <i class="fa-solid fa-phone-volume"></i>
-              <article>
-                <p>call for help</p>
-                <h5>+1 123 456 7890</h5>
-              </article>
-            </div>
-
-            <!-- MObile Menu -->
-            <div class="mobileNav">
-              <div class="menuIcon">
-                <span></span>
-                <span></span>
-              </div>
-
-              <!-- mobile menu list -->
-              <div class="mobNavInner">
-                <ul
-                  class="navMenu aiana-menu list-unstyled d-flex flex-column align-items-center flex-grow-1 justify-content-center"
-                >
-                  <li class="anchorHover">
-                    <a href="#top">Home</a>
-                    <span class="sup"></span>
-                    <span class="dup"></span>
-                  </li>
-                  <li class="anchorHover">
-                    <a href="#projects">projects</a> <span class="sup"></span>
-                    <span class="dup"></span>
-                  </li>
-                  <li class="anchorHover">
-                    <a href="#gallery">Gallery</a> <span class="sup"></span>
-                    <span class="dup"></span>
-                  </li>
-                  <li class="anchorHover">
-                    <a href="#video">Video</a> <span class="sup"></span>
-                    <span class="dup"></span>
-                  </li>
-                  <li class="anchorHover">
-                    <a href="#blog">Blog</a> <span class="sup"></span>
-                    <span class="dup"></span>
-                  </li>
-                </ul>
-                <div class="contactArea justify-content-start">
-                  <i class="fa-solid fa-phone-volume"></i>
-                  <article>
-                    <p>call for help</p>
-                    <h5>+1 123 456 7890</h5>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-          <!-- hero section  -->
-          <section class="aiana-hero">
-            <div class="container position-relative z-2">
-              <div class="row align-items-center">
-                <div class="col-md-6 position-relative tab-none">
-                  <!-- side area -->
-                  <div class="heroSide position-relative">
-                    <div class="sideImg">
-                      <div class="slide">
-                        <img
-                          src="assets/images/hero/slider/1.jpg"
-                          alt="Slide"
-                        />
-                      </div>
-                      <div class="slide">
-                        <img
-                          src="assets/images/hero/slider/2.jpg"
-                          alt="Slide"
-                        />
-                      </div>
-                      <div class="slide">
-                        <img
-                          src="assets/images/hero/slider/3.jpg"
-                          alt="Slide"
-                        />
-                      </div>
-                    </div>
-                    <div class="obj">
-                      <img src="assets/images/hero/obj.png" alt="Object" />
-                      <img src="assets/images/hero/obj.png" alt="Object" />
-                    </div>
-                  </div>
-                  <div class="aiana-search position-relative z-3">
-                    <div class="inputField">
-                      <input
-                        type="text"
-                        name="search"
-                        placeholder="Describe What you want or Hit a tag Below"
-                      />
-                      <button>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                      </button>
-                    </div>
-                    <div class="searchTags">
-                      Popular Tags:
-                      <span>Creative, Templates, Projects, Discover</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- hero section content -->
-                <div class="col-md-6 tab-100 position-relative z-3">
-                  <h1 class="aiana-h1 paddingCustom ms-md-5">ai content creation powerhouse</h1>
-                  <div class="paddingCustom ms-md-5">
-                    <p class="aiana-desc" style="font-weight: 400; font-size: larger;">
+</div>
+<!-- Aiana menu -->
+<ul class="navMenu aiana-d-md-none aiana-menu list-unstyled d-flex align-items-center flex-grow-1 justify-content-center">
+<li class="anchorHover">
+<a href="#top">Home</a>
+<span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a href="#projects">projects</a> <span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a href="#blog">Blog</a> <span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a href="#order">Order</a> <span class="sup"></span>
+<span class="dup"></span>
+</li>
+</ul>
+<!-- aiana SOcial -->
+<ul class="aiana-social sm-sm-none list-unstyled d-flex">
+<li>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+</li>
+</ul>
+<!-- aiana Helpline -->
+<div class="aiana-d-md-none contactArea">
+<div class="shoppingBag">
+<i class="fa-solid fa-bag-shopping"></i>
+</div>
+<i class="fa-solid fa-phone-volume"></i>
+<article>
+<p>call for help</p>
+<h5>+1 202 681 0664</h5>
+</article>
+</div>
+<!-- MObile Menu -->
+<div class="mobileNav">
+<div class="menuIcon">
+<span></span>
+<span></span>
+</div>
+<!-- mobile menu list -->
+<div class="mobNavInner">
+<ul class="navMenu aiana-menu list-unstyled d-flex flex-column align-items-center flex-grow-1 justify-content-center">
+<li class="anchorHover">
+<a href="#top">Home</a>
+<span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a href="#projects">projects</a> <span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a href="#blog">Blog</a> <span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a href="#order">Order Form</a> <span class="sup"></span>
+<span class="dup"></span>
+</li>
+</ul>
+<div class="contactArea justify-content-start">
+<i class="fa-solid fa-phone-volume"></i>
+<article>
+<p>call for help</p>
+<h5>+1 (202) 681-0664</h5>
+</article>
+</div>
+</div>
+</div>
+</nav>
+<!-- hero section  -->
+<section class="aiana-hero">
+<div class="container-fluid position-relative z-2">
+<div class="row align-items-center">
+<!-- hero section content -->
+<div class="col-md-6 tab-100 position-relative z-3">
+<h1 class="aiana-h1 paddingCustom ms-md-5">ai content creation powerhouse</h1>
+<div class="paddingCustom ms-md-5">
+<p class="aiana-desc" style="font-weight: 400; font-size: larger;">
                       Our understanding of AI on a conceptual level
                       as well as our familiarity with high powered editing tools
                       enables us to focus on content rather than technicality.
@@ -219,1193 +133,715 @@
                       which allows your vision to shine as your company
                       is able to maximize their competitive edge creatively and cost effectively.
                     </p>
-                    <ul class="row aiana-list list-unstyled">
-                      <li class="col-6">
-                        <img
-                          src="assets/images/hero/list/1.png"
-                          alt="List Icon"
-                        />Fully managed
+<ul class="row aiana-list list-unstyled">
+<li class="col-6">
+<img alt="List Icon" src="assets/images/hero/list/1.png"/>Fully managed
                       </li>
-                      <li class="col-6">
-                        <img
-                          src="assets/images/hero/list/2.png"
-                          alt="List Icon"
-                        />Intuitive interface
+<li class="col-6">
+<img alt="List Icon" src="assets/images/hero/list/2.png"/>Intuitive interface
                       </li>
-                      <li class="col-6">
-                        <img
-                          src="assets/images/hero/list/3.png"
-                          alt="List Icon"
-                        />Marketing Videos
+<li class="col-6">
+<img alt="List Icon" src="assets/images/hero/list/3.png"/>Marketing Videos
                       </li>
-                      <li class="col-6">
-                        <img
-                          src="assets/images/hero/list/4.png"
-                          alt="List Icon"
-                        />Affordable Video
+<li class="col-6">
+<img alt="List Icon" src="assets/images/hero/list/4.png"/>Affordable Video
                       </li>
-                    </ul>
-                    <div class="aiana-progress">
-                      <div class="row">
-                        <div class="col-6">
-                          <div class="progressSingle">
-                            <h2><span>100</span>k</h2>
-                            <p>Social Media Followers</p>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="progressSingle">
-                            <h2><span>93</span>%</h2>
-                            <p>Average Audience Participation</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <button class="aiana-button">Order Form</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <img
-                src="assets/images/hero/ai-eye.png"
-                alt="eye"
-                class="hero-eye"
-              />
-            </div>
-          </section>
-        </header>
-
-        <!-- aiana features -->
-        <section class="aiana-features position-relative">
-          <div class="container position-relative z-3">
-            <!-- feature 1 -->
-            <div class="aiana-Feature-1 mb-5 pb-md-5">
-              <h1 class="aiana-heading d-block d-flex mx-auto">
+</ul>
+<div class="aiana-progress">
+<div class="row">
+<div class="col-6">
+<div class="progressSingle">
+<h2><span>100</span>k</h2>
+<p>Social Media Followers</p>
+</div>
+</div>
+<div class="col-6">
+<div class="progressSingle">
+<h2><span>93</span>%</h2>
+<p>Average Audience Participation</p>
+</div>
+</div>
+</div>
+</div>
+<button class="aiana-button" data-scroll="order" href="#order">Order Form</button>
+</div>
+</div>
+</div>
+</div>
+<div>
+<img alt="eye" class="hero-eye" src="assets/images/hero/ai-eye.png"/>
+</div>
+</section>
+</header>
+<!-- aiana features -->
+<section class="aiana-features position-relative">
+<div class="container-fluid position-relative z-3">
+<!-- feature 1 -->
+<div class="aiana-Feature-1 mb-5 pb-md-5">
+<h1 class="aiana-heading d-block d-flex mx-auto">
                 ai-powered content
               </h1>
-              <h2 class="aiana-h2 animateScrollText text-center">
+<h2 class="aiana-h2 animateScrollText text-center">
                 Artificially intelligent
               </h2>
-              <div class="row">
-                <div class="col-md-4 mt-5 tab-50 sm-sm-100">
-                  <div>
-                    <i class="featureIcon fa-solid fa-robot"></i>
-                    <h2 class="aiana-h3">Ads (Under 45 Seconds)</h2>
-                    <p class="aiana-desc">
+<div class="row">
+<div class="col-md-4 mt-5 tab-50 sm-sm-100">
+<div>
+<i class="featureIcon fa-solid fa-robot"></i>
+<h2 class="aiana-h3">Ads (Under 45 Seconds)</h2>
+<p class="aiana-desc">
                       Our under-45-second ad service is built for speed, impact, and attention.
                       We'll craft a tight, high-energy piece that instantly grabs your audience -- perfect for
                       Instagram, Tik Tok, YouTube Shorts, or any social-media campaign that thrives on immediacy.
 
                       Each ad is visually sharp, emotionally engaging, and designed to convert curiosity into
                       clicks in less time than it takes to skip an ad.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-4 mt-5 tab-50 sm-sm-100">
-                  <div>
-                    <i class="featureIcon fa-solid fa-robot"></i>
-                    <h2 class="aiana-h3">Generative AI</h2>
-                    <p class="aiana-desc">
-                      Explore how teams at Google are using Generative AI to
-                      create new Experience
-                    </p>
-                    <ul class="aiana-list-2 list-unstyled">
-                      <li>
-                        <i class="fa-solid fa-circle-check"></i>5 User seats
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-circle-check"></i>50,000 Words per
-                        month
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-circle-check"></i> 70+ AI writing
-                        tools
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-4 mt-5 tab-50 sm-sm-100">
-                  <div>
-                    <i class="featureIcon fa-solid fa-robot"></i>
-                    <h2 class="aiana-h3">Generative AI</h2>
-                    <p class="aiana-desc">
-                      Explore how teams at Google are using Generative AI to
-                      create new Experience
-                    </p>
-                    <ul class="aiana-list-2 list-unstyled">
-                      <li>
-                        <i class="fa-solid fa-circle-check"></i>5 User seats
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-circle-check"></i>50,000 Words per
-                        month
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-circle-check"></i> 70+ AI writing
-                        tools
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          <!-- aiana marquee -->
-          <div class="aiana-marquee position-relative z-3">
-            <div class="marquee">
-              <div class="slideInner">
-                <h2 class="aiana-h2 slide">Al Ad Generation</h2>
-                <h2 class="aiana-h2 slide">Al Documentary </h2>
-                <h2 class="aiana-h2 slide">Al Movie Production</h2>
-              </div>
-            </div>
-          </div>
-
-          <!-- section bg -->
-          <div class="featureBG">
-            <img src="assets/images/backgrounds/featureBG.png" alt="BG" />
-          </div>
-        </section>
-
-        <!-- aiana projects -->
-        <section id="projects" class="aiana-projects">
-          <h1 class="aiana-heading animateScrollText mx-auto">
+                    </p><a class="fh-btn mt-3 d-inline-block" data-service="Ads (Under 45 Seconds)" href="#order">Order this service</a>
+</div>
+</div>
+<div class="col-md-4 mt-5 tab-50 sm-sm-100">
+<div>
+<i class="featureIcon fa-solid fa-robot"></i>
+<h2 class="aiana-h3">Ads (90 Seconds)</h2>
+<p class="aiana-desc">
+                      The 90-second ad format gives your brand room to breathe.
+                      It’s long enough to tell a meaningful story — to establish a tone, a rhythm, and a message
+                      that connects on a deeper level — yet short enough to keep modern audiences engaged.
+                      We’ll help you build a clear narrative arc that captures attention early and leaves a strong
+                      impression by the end.
+                    </p><a class="fh-btn mt-3 d-inline-block" data-service="Ads (90 Seconds)" href="#order">Order this service</a>
+</div>
+</div>
+<div class="col-md-4 mt-5 tab-50 sm-sm-100">
+<div>
+<i class="featureIcon fa-solid fa-robot"></i>
+<h2 class="aiana-h3">Music Videos</h2>
+<p class="aiana-desc">
+                      Bring your music to life with a visually stunning video under 3 minutes.
+                      We combine your artistic vision with AI-enhanced production tools to deliver a polished,
+                      cinematic product that fits your sound and style.
+                      Need more space to expand your concept? Each additional 45 seconds can be added
+                      seamlessly for extended versions.
+                    </p><a class="fh-btn mt-3 d-inline-block" data-service="Music Videos" href="#order">Order this service</a>
+</div>
+</div>
+<div class="col-md-4 mt-5 tab-50 sm-sm-100">
+<div>
+<i class="featureIcon fa-solid fa-robot"></i>
+<h2 class="aiana-h3">Documentaries (12–15 Minutes)</h2>
+<p class="aiana-desc">
+                      For concise yet powerful storytelling, our short-form documentaries provide emotional
+                      depth and journalistic polish.
+                      Perfect for artists, founders, and causes that need to communicate meaning with
+                      authenticity and focus.
+                    </p><a class="fh-btn mt-3 d-inline-block" data-service="Documentaries (12–15 Minutes)" href="#order">Order this service</a>
+</div>
+</div>
+<div class="col-md-4 mt-5 tab-50 sm-sm-100">
+<div>
+<i class="featureIcon fa-solid fa-robot"></i>
+<h2 class="aiana-h3">Mini Movies (60 Minutes)</h2>
+<p class="aiana-desc">
+                      Our one-hour “mini-movie” package lets you explore a complete narrative world —
+                      character development, pacing, tension, and resolution — all within a crisp 60-minute
+                      framework.
+                      It’s a true cinematic experience without the full-length film budget.
+                    </p><a class="fh-btn mt-3 d-inline-block" data-service="Mini Movies (60 Minutes)" href="#order">Order this service</a>
+</div>
+</div>
+<div class="col-md-4 mt-5 tab-50 sm-sm-100">
+<div>
+<i class="featureIcon fa-solid fa-robot"></i>
+<h2 class="aiana-h3">Feature Films (90 Minutes)</h2>
+<p class="aiana-desc">
+                      Go big with a 90-minute, full-length production.
+                      We bring your script to life with cinematic quality, professional editing, and AI-assisted
+                      efficiency — giving you a feature-ready film at a fraction of Hollywood’s cost.
+                      It’s a true cinematic experience without the full-length film budget.
+                    </p><a class="fh-btn mt-3 d-inline-block" data-service="Feature Films (90 Minutes)" href="#order">Order this service</a>
+</div>
+</div>
+<div class="col-md-4 mt-5 tab-50 sm-sm-100">
+<div>
+<i class="featureIcon fa-solid fa-robot"></i>
+<h2 class="aiana-h3">App Development (Famous AI App MVP)</h2>
+<p class="aiana-desc">
+                      Launch your own app powered by our Famous AI platform.
+                      We’ll build your MVP fast, integrating PayPal for seamless payments and designing for
+                      creators, brands, or influencers who want to monetize their following.
+                      Every build emphasizes speed, scalability, and sleek, intuitive UX.
+                    </p><a class="fh-btn mt-3 d-inline-block" data-service="App Development (Famous AI App MVP)" href="#order">Order this service</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- aiana marquee -->
+<div class="aiana-marquee position-relative z-3">
+<div class="marquee">
+<div class="slideInner">
+<h2 class="aiana-h2 slide">Al Ad Generation</h2>
+<h2 class="aiana-h2 slide">Al Documentary</h2>
+<h2 class="aiana-h2 slide">Al Movie Production</h2>
+</div>
+</div>
+</div>
+<!-- section bg -->
+<div class="featureBG">
+<img alt="BG" src="assets/images/backgrounds/featureBG.png"/>
+</div>
+</section>
+<!-- aiana projects -->
+<section class="aiana-projects" id="projects">
+<h1 class="aiana-heading animateScrollText mx-auto">
             ai-powered content
           </h1>
-          <h2 class="aiana-h2 animateScrollText text-center">
+<h2 class="aiana-h2 animateScrollText text-center">
             Our Latest Projects Showcase
           </h2>
-          <div class="container mt-5 position-relative z-3">
-            <!-- project content -->
-            <div class="tab-content" id="projects-content">
-              <div
-                class="tab-pane fade show active"
-                id="tab-1-content"
-                role="tabpanel"
-                aria-labelledby="tab-1"
-                tabindex="0"
-              >
-                <div class="d-flex w-100 w-md-95">
-                  <div class="flex-grow-1">
-                    <div class="project-single">
-                      <img src="assets/images/projects/p1.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                    <div class="project-single">
-                      <div class="bar"></div>
-                      <img src="assets/images/projects/p3.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex-grow-1">
-                    <div class="project-single">
-                      <div class="bar"></div>
-                      <img src="assets/images/projects/p2.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                    <div class="project-single">
-                      <img src="assets/images/projects/p4.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="tab-2-content"
-                role="tabpanel"
-                aria-labelledby="tab-2"
-                tabindex="0"
-              >
-                <div class="d-flex w-100 w-md-95">
-                  <div class="flex-grow-1">
-                    <div class="project-single">
-                      <img src="assets/images/projects/Gemini_Generated_Image_u3c8veu3c8veu3c8.jpeg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                      <div class="bar"></div>
-                    </div>
-                    <div class="project-single">
-                      <img src="assets/images/projects/Roar Rewritten_ Welcome to the House.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex-grow-1">
-                    <div class="project-single">
-                      <div class="bar"></div>
-                      <img src="assets/images/projects/p2.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                    <div class="project-single">
-                      <img src="assets/images/projects/p3.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="tab-3-content"
-                role="tabpanel"
-                aria-labelledby="tab-3"
-                tabindex="0"
-              >
-                <div class="d-flex w-100 w-md-95">
-                  <div class="flex-grow-1">
-                    <div class="project-single">
-                      <img src="assets/images/projects/p4.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                    <div class="project-single">
-                      <div class="bar"></div>
-                      <img src="assets/images/projects/p3.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex-grow-1">
-                    <div class="project-single">
-                      <div class="bar"></div>
-                      <img src="assets/images/projects/p2.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                    <div class="project-single">
-                      <img src="assets/images/projects/p1.jpg" alt="projects" />
-                      <div class="projectInfo">
-                        <p>mobile app / development</p>
-                        <h4>App for Virtual Reality</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- projects button -->
-            <div id="projects-tab" role="tablist">
-              <button
-                class="active"
-                id="tab-1"
-                data-bs-toggle="tab"
-                data-bs-target="#tab-1-content"
-                type="button"
-                role="tab"
-                aria-controls="tab-1-content"
-                aria-selected="true"
-              >
-                Serena Skyhacker <span>*</span>
-              </button>
-              <button
-                id="tab-2"
-                data-bs-toggle="tab"
-                data-bs-target="#tab-2-content"
-                type="button"
-                role="tab"
-                aria-controls="tab-2-content"
-                aria-selected="false"
-              >
-                CONTROVERSE <span>*</span>
-              </button>
-              <button
-                id="tab-3"
-                data-bs-toggle="tab"
-                data-bs-target="#tab-3-content"
-                type="button"
-                role="tab"
-                aria-controls="tab-3-content"
-                aria-selected="false"
-              >
-                optimized
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <!-- aiana gallery 2 -->
-        <section id="gallery" class="aiana-gallery">
-          <div class="container position-relative z-3">
-            <h1 class="text-center animateScrollText aiana-h1 small">
-              Creating AI That<br />Benefits For Humanity
-            </h1>
-
-            <!-- gallery inner -->
-            <div class="row my-5">
-              <div class="col-3">
-                <div class="gallery set1">
-                  <img src="assets/images/gallery/1.jpg" alt="Photo" />
-                  <img src="assets/images/gallery/2.jpg" alt="Photo" />
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="gallery set2">
-                  <img src="assets/images/gallery/3.jpg" alt="Photo" />
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="gallery set3">
-                  <img src="assets/images/gallery/4.jpg" alt="Photo" />
-                  <img src="assets/images/gallery/5.jpg" alt="Photo" />
-                </div>
-              </div>
-            </div>
-
-            <!-- gallery list -->
-            <ul
-              class="aiana-list-2 d-flex align-items-center justify-content-center gap-5 list-unstyled"
-            >
-              <li><i class="fa-solid fa-circle-check"></i>5 User seats</li>
-              <li>
-                <i class="fa-solid fa-circle-check"></i>50,000 Words per month
-              </li>
-              <li>
-                <i class="fa-solid fa-circle-check"></i> 70+ AI writing tools
-              </li>
-            </ul>
-            <button
-              class="aiana-button d-flex justify-content-center align-items-center mx-auto mt-0"
-            >
-              create a free ai video
-            </button>
-          </div>
-          <!-- section bg -->
-          <img
-            class="section-bg"
-            src="assets/images/backgrounds/aiana-gallery.jpg"
-            alt="BG"
-          />
-        </section>
-
-        <!-- aiana video -->
-        <section id="video" class="aiana-video video-block">
-          <div class="container position-relative z-3">
-            <!-- play btn -->
-            <div class="playBtn startplay">
-              <i class="fa-solid fa-play"></i>
-              <div class="rotateAnimation">
-                <span>
-                  . play reel . play reel . play reel . play reel . play reel
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <!-- video frame -->
-          <!-- video frame -->
-          <video
-            src="./assets/images/video/The_lion_roars_202511070056.mp4"
-            title="Sample Video"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></video>
-          <i class="close fa-solid fa-circle-xmark"></i>
-
-          <img src="assets/images/video/bg.jpg" alt="BG" class="section-bg" />
-        </section>
-
-        <!-- aiana priceTable -->
-        <section class="aiana-priceTable">
-          <div class="container">
-            <h1 class="aiana-heading animateScrollText mx-auto">
-              ai-powered content
-            </h1>
-            <h2 class="aiana-h2 animateScrollText text-center">
-              Automate Your Image Procesing<br />with deep image Ai
-            </h2>
-            <div class="row mb-5">
-              <div class="col-md-4 sm-sm-100 mt-5 tab-50">
-                <div class="priceTable">
-                  <h4 class="aiana-h3">Free Trial</h4>
-                  <h1 class="aiana-heading no-border">ai-powered content</h1>
-                  <div class="d-flex align-items-end">
-                    <h2 class="aiana-h2 big"><sup>$</sup>25</h2>
-                    <p class="table-desc">1 user / 6 months</p>
-                  </div>
-                  <button class="aiana-button w-100">
-                    create a free ai video
+<div class="container mt-5 position-relative z-3">
+<div class="row">
+<div class="col-12 col-md-9">
+<div class="tab-content" id="projects-content">
+<div aria-labelledby="tab-1" class="tab-pane fade show active" id="tab-1-content" role="tabpanel" tabindex="0">
+<div class="d-flex w-100 w-md-95">
+<!-- LEFT column -->
+<div class="flex-grow-1">
+<div class="project-single">
+<video controls="">
+<source alt="serena-bag-Paris" src="assets/images/projects/serena-skyhacker/bag/serena-bag-1.mp4" type="video/mp4"/>
+<span>Video not processed correctly.</span>
+</video>
+<div class="projectInfo">
+<p>AI Ad Under 45 Seconds</p>
+<h4>Serena Bag Ad - Paris</h4>
+</div>
+</div>
+<div class="project-single">
+<video controls="">
+<source alt="serena-bag-milan" src="assets/images/projects/serena-skyhacker/bag/serena-bag-2.mp4" type="video/mp4"/>
+<span>Video not processed correctly.</span>
+</video>
+<div class="projectInfo">
+<p>AI Ad Under 45 Seconds</p>
+<h4>Serena Bag Ad - Milan</h4>
+</div>
+</div>
+</div>
+<!-- RIGHT column -->
+<div class="flex-grow-1">
+<div class="project-single">
+<video controls="">
+<source alt="serena-bag-london" src="assets/images/projects/serena-skyhacker/bag/serena-bag-3.mp4" type="video/mp4"/>
+<span>Video not processed correctly.</span>
+</video>
+<div class="projectInfo">
+<p>AI Ad Under 45 Seconds</p>
+<h4>Serena Bag Ad - London</h4>
+</div>
+</div>
+<div class="project-single">
+<video controls="">
+<source alt="serena-bag-barcelona" src="assets/images/projects/serena-skyhacker/bag/serena-bag-4.mp4" type="video/mp4"/>
+<span>Video not processed correctly.</span>
+</video>
+<div class="projectInfo">
+<p>AI Ad Under 45 Seconds</p>
+<h4>Serena Bag Ad - Barcelona</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="tab-2" class="tab-pane fade" id="tab-2-content" role="tabpanel" tabindex="0">
+<div class="d-flex w-100 w-md-95">
+<!-- LEFT column -->
+<div class="flex-grow-1">
+<div class="project-single">
+<video controls="">
+<source src="assets/images/projects/controverse/liquor/nathan-liq-1.mp4" type="video/mp4"/>
+<span>Video not processed correctly.</span>
+</video>
+<div class="projectInfo">
+<p>AI Ad Under 45 Seconds</p>
+<h4>Made for Social Media</h4>
+</div>
+</div>
+<div class="project-single">
+<video controls="">
+<source src="assets/images/projects/controverse/liquor/nathan-liq-3.mp4" type="video/mp4"/>
+<span>Video not processed correctly.</span>
+</video>
+<div class="projectInfo">
+<p>AI Ad Under 45 Seconds</p>
+<h4>Made for Social Media</h4>
+</div>
+</div>
+</div>
+<!-- RIGHT column -->
+<div class="flex-grow-1">
+<div class="project-single">
+<video controls="">
+<source src="assets/images/projects/controverse/liquor/nathan-liq-2.mp4" type="video/mp4"/>
+<span>Video not processed correctly.</span>
+</video>
+<div class="projectInfo">
+<p>AI Ad Under 45 Seconds</p>
+<h4>Made for Social Media</h4>
+</div>
+</div>
+<div class="project-single">
+<video controls="">
+<source src="assets/images/projects/controverse/liquor/nathan-liq-4.mp4" type="video/mp4"/>
+<span>Video not processed correctly.</span>
+</video>
+<div class="projectInfo">
+<p>AI Ad Under 45 Seconds</p>
+<h4>Made for Social Media</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="tab-3" class="tab-pane fade" id="tab-3-content" role="tabpanel" tabindex="0">
+<div class="d-flex w-100 w-md-95">
+<div class="flex-grow-1">
+<div class="project-single">
+<img alt="projects-pop-art" src="assets/images/projects/pop-art/pop-art-1.png"/>
+<div class="projectInfo">
+<p>Pop Art Ad Generation</p>
+<h4>Constraint-Driven AI Image Synthesis</h4>
+</div>
+</div>
+<div class="project-single">
+<div class="bar"></div>
+<img alt="projects-pop-art" src="assets/images/projects/pop-art/pop-art-2.png"/>
+<div class="projectInfo">
+<p>Pop Art Ad Generation</p>
+<h4>Precision-Guided AI Image Generation</h4>
+</div>
+</div>
+</div>
+<div class="flex-grow-1">
+<div class="project-single">
+<div class="bar"></div>
+<img alt="projects-pop-art" src="assets/images/projects/pop-art/pop-art-3.png"/>
+<div class="projectInfo">
+<p>Pop Art Ad Generation</p>
+<h4>Structured AI Content Generation</h4>
+</div>
+</div>
+<div class="project-single">
+<img alt="projects-pop-art" src="assets/images/projects/pop-art/pop-art-4.png"/>
+<div class="projectInfo">
+<p>Pop Art Ad Generation</p>
+<h4>Controlled-Input Image Generation</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-3 d-flex align-items-start pt-5 pt-md-0">
+<div class="w-100" id="projects-tab" role="tablist">
+<button aria-controls="tab-1-content" aria-selected="true" class="active" data-bs-target="#tab-1-content" data-bs-toggle="tab" id="tab-1" role="tab" type="button">
+                    Purse Ad Campaign <span>*</span>
+</button>
+<button aria-controls="tab-2-content" aria-selected="false" data-bs-target="#tab-2-content" data-bs-toggle="tab" id="tab-2" role="tab" type="button">
+                    Spirit Ad Campaign <span>*</span>
+</button>
+<button aria-controls="tab-3-content" aria-selected="false" data-bs-target="#tab-3-content" data-bs-toggle="tab" id="tab-3" role="tab" type="button">
+                    FameHack.PopArt
                   </button>
-                  <div class="line"></div>
-                  <h1 class="aiana-heading no-border text-capitalize">
-                    features of free plan
-                  </h1>
-                  <ul class="aiana-list-2 list-unstyled">
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i>5 User seats
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i>50,000 Words per
-                      month
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i> 70+ AI writing
-                      tools
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i> 70+ AI writing
-                      tools
-                    </li>
-                  </ul>
-                  <button class="aiana-button-2">
-                    <img
-                      src="assets/images/priceTable/buttonImg.png"
-                      alt="Buton Img"
-                    />
-                    <article>
-                      <h5>Starting from more?</h5>
-                      <p>We Offer free tracking setup</p>
-                    </article>
-                  </button>
-                </div>
-              </div>
-              <div class="col-md-4 sm-sm-100 mt-5 tab-50">
-                <div class="priceTable best">
-                  <h4 class="aiana-h3">Free Trial</h4>
-                  <h1 class="aiana-heading no-border">ai-powered content</h1>
-                  <div class="d-flex align-items-end">
-                    <h2 class="aiana-h2 big"><sup>$</sup>25</h2>
-                    <p class="table-desc">1 user / 6 months</p>
-                  </div>
-                  <button class="aiana-button w-100">
-                    create a free ai video
-                  </button>
-                  <div class="line"></div>
-                  <h1 class="aiana-heading no-border text-capitalize">
-                    features of free plan
-                  </h1>
-                  <ul class="aiana-list-2 list-unstyled">
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i>5 User seats
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i>50,000 Words per
-                      month
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i> 70+ AI writing
-                      tools
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i> 70+ AI writing
-                      tools
-                    </li>
-                  </ul>
-                  <button class="aiana-button-2">
-                    <img
-                      src="assets/images/priceTable/buttonImg.png"
-                      alt="Buton Img"
-                    />
-                    <article>
-                      <h5>Starting from more?</h5>
-                      <p>We Offer free tracking setup</p>
-                    </article>
-                  </button>
-                </div>
-              </div>
-
-              <div class="col-md-4 sm-sm-100 mt-5 tab-50">
-                <div class="priceTable">
-                  <h4 class="aiana-h3">With Subscription</h4>
-                  <h1 class="aiana-heading no-border">ai-powered content</h1>
-                  <div class="d-flex align-items-end">
-                    <h2 class="aiana-h2 big"><sup>$</sup>25</h2>
-                    <p class="table-desc">1 user / 6 months</p>
-                  </div>
-                  <button class="aiana-button w-100">
-                    create a free ai video
-                  </button>
-                  <div class="line"></div>
-                  <h1 class="aiana-heading no-border text-capitalize">
-                    features of free plan
-                  </h1>
-                  <ul class="aiana-list-2 list-unstyled">
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i>5 User seats
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i>50,000 Words per
-                      month
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i> 70+ AI writing
-                      tools
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-circle-check"></i> 70+ AI writing
-                      tools
-                    </li>
-                  </ul>
-                  <button class="aiana-button-2">
-                    <img
-                      src="assets/images/priceTable/buttonImg.png"
-                      alt="Buton Img"
-                    />
-                    <article>
-                      <h5>Starting from more?</h5>
-                      <p>We Offer free tracking setup</p>
-                    </article>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <p class="highlightText mb-0">
-              We Worked with global largest <span>26,000+brands</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- aiana subscription priceTable -->
+<section class="aiana-priceTable" id="pricing">
+<div class="container">
+<h1 class="aiana-heading-1 pb-md-5 mx-auto text-center fh-heading">Subscriptions</h1>
+<h2 class="aiana-h2 text-center">Choose a plan or go à la carte</h2>
+<div class="row pt-4 fh-pricing">
+<!-- STARTER -->
+<div class="col-lg-4 col-md-6 mb-4">
+<div class="fh-card fh-price">
+<h3 class="aiana-h3 mb-1">Novice</h3>
+<p class="fh-helper mb-3">AI-centered content</p>
+<div class="fh-price-row">
+<span class="fh-currency">$</span><span class="fh-amount">25</span>
+<span class="fh-cycle">1 user / 6 months</span>
+</div>
+<a class="fh-btn w-100 mb-3" data-plan="Novice" href="#order">Create a free AI video</a>
+<hr class="fh-divider"/>
+<p class="fw-semibold mb-2">Features of Free Plan</p>
+<ul class="fh-list">
+<li>5 user seats</li>
+<li>50,000 words per month</li>
+<li>70+ AI writing tools</li>
+<li>Basic support</li>
+</ul>
+</div>
+</div>
+<!-- PRO -->
+<div class="col-lg-4 col-md-6 mb-4">
+<div class="fh-card fh-price fh-featured">
+<h3 class="aiana-h3 mb-1">Creator</h3>
+<p class="fh-helper mb-3">Best for growing brands</p>
+<div class="fh-price-row">
+<span class="fh-currency">$</span><span class="fh-amount">199</span>
+<span class="fh-cycle">per month</span>
+</div>
+<a class="fh-btn w-100 mb-3" data-plan="Creator" href="#order">Start Creator</a>
+<hr class="fh-divider"/>
+<ul class="fh-list">
+<li>Everything in Free Trial</li>
+<li>2 short ads/month (≤45s)</li>
+<li>Priority editing &amp; revisions</li>
+<li>Brand kit &amp; export presets</li>
+</ul>
+</div>
+</div>
+<!-- STUDIO -->
+<div class="col-lg-4 col-md-12 mb-4">
+<div class="fh-card fh-price">
+<h3 class="aiana-h3 mb-1">Studio</h3>
+<p class="fh-helper mb-3">For teams &amp; campaigns</p>
+<div class="fh-price-row">
+<span class="fh-currency">$</span><span class="fh-amount">699</span>
+<span class="fh-cycle">per month</span>
+</div>
+<a class="fh-btn w-100 mb-3" data-plan="Studio" href="#order">Start Studio</a>
+<hr class="fh-divider"/>
+<ul class="fh-list">
+<li>4 short ads/month (mix of ≤45s &amp; 90s)</li>
+<li>Quarterly strategy session</li>
+<li>Advanced effects credits</li>
+<li>Team onboarding &amp; VIP support</li>
+</ul>
+</div>
+</div>
+</div>
+<p class="text-center larger mt-2">
+              Need something custom? Use the <a href="#order">order form</a> for à la carte services.
             </p>
-          </div>
-        </section>
-
-        <!-- aiana faqs -->
-        <section class="aiana-faqs">
-          <div class="container">
-            <h1 class="aiana-heading animateScrollText mx-auto">
-              ai-powered content
-            </h1>
-            <h2 class="aiana-h2 animateScrollText text-center">
-              Automate To Image
-            </h2>
-
-            <!-- FAQs -->
-            <div class="mt-5 accordion accordion-flush" id="aianaFaq">
-              <div class="accordion-item">
-                <img
-                  class="active"
-                  src="assets/images/faqs/faq1.jpg"
-                  alt="Faq"
-                />
-
-                <!-- faq 1 header -->
-                <div class="flex-grow-1">
-                  <h2 class="accordion-header">
-                    <button
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq1"
-                      aria-expanded="false"
-                      aria-controls="#faq1"
-                    >
-                      Artificial Intelligence is The New Big Thing in Technology
-                    </button>
-                  </h2>
-
-                  <!-- faq 1 body -->
-                  <div
-                    id="faq1"
-                    data-bs-parent="#aianaFaq"
-                    class="collapse show"
-                  >
-                    <div class="accordion-body">
-                      AI Future enables us to focus more on content rather than
-                      editing motion. And it definitely makes our workflow
-                      smoother focus more on content rather than editing motion.
-                      And it AI Future enables rather than editing motion.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <img src="assets/images/faqs/faq2.jpg" alt="Faq" />
-
-                <!-- faq 2 header -->
-                <div class="flex-grow-1">
-                  <h2 class="accordion-header">
-                    <button
-                      type="button"
-                      class="collapsed"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq2"
-                      aria-expanded="false"
-                      aria-controls="#faq2"
-                    >
-                      Artificial Intelligence is The New Big Thing in Technology
-                    </button>
-                  </h2>
-
-                  <!-- faq 2 body -->
-                  <div id="faq2" data-bs-parent="#aianaFaq" class="collapse">
-                    <div class="accordion-body">
-                      AI Future enables us to focus more on content rather than
-                      editing motion. And it definitely makes our workflow
-                      smoother focus more on content rather than editing motion.
-                      And it AI Future enables rather than editing motion.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <img src="assets/images/faqs/faq1.jpg" alt="Faq" />
-
-                <!-- faq 3 header -->
-                <div class="flex-grow-1">
-                  <h2 class="accordion-header">
-                    <button
-                      type="button"
-                      class="collapsed"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq3"
-                      aria-expanded="false"
-                      aria-controls="#faq3"
-                    >
-                      Artificial Intelligence is The New Big Thing in Technology
-                    </button>
-                  </h2>
-
-                  <!-- faq 3 body -->
-                  <div id="faq3" data-bs-parent="#aianaFaq" class="collapse">
-                    <div class="accordion-body">
-                      AI Future enables us to focus more on content rather than
-                      editing motion. And it definitely makes our workflow
-                      smoother focus more on content rather than editing motion.
-                      And it AI Future enables rather than editing motion.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <img src="assets/images/faqs/faq4.jpg" alt="Faq" />
-
-                <!-- faq 4 header -->
-                <div class="flex-grow-1">
-                  <h2 class="accordion-header">
-                    <button
-                      type="button"
-                      class="collapsed"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq4"
-                      aria-expanded="false"
-                      aria-controls="#faq4"
-                    >
-                      Artificial Intelligence is The New Big Thing in Technology
-                    </button>
-                  </h2>
-
-                  <!-- faq 4 body -->
-                  <div id="faq4" data-bs-parent="#aianaFaq" class="collapse">
-                    <div class="accordion-body">
-                      AI Future enables us to focus more on content rather than
-                      editing motion. And it definitely makes our workflow
-                      smoother focus more on content rather than editing motion.
-                      And it AI Future enables rather than editing motion.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- aiana services -->
-        <section class="aiana-services">
-          <div class="container position-relative z-3">
-            <!-- service details -->
-            <div class="servicedetails">
-              <div class="row align-items-center">
-                <div class="col-md-6">
-                  <h1 class="aiana-heading animateScrollText">
+</div>
+</section>
+<!-- aiana services -->
+<section class="aiana-services">
+<div class="container-fluid position-relative z-3">
+<!-- service details -->
+<div class="servicedetails">
+<div class="row align-items-center">
+<div class="col-md-6">
+<h1 class="aiana-heading animateScrollText">
                     ai-powered content
                   </h1>
-                  <h2 class="aiana-h2 animateScrollText">
-                    Empowering Business with AI Solutions
+<h2 class="aiana-h2 animateScrollText">
+                    Kristine Mirelle's 8-Week, AI Course
                   </h2>
-                  <p class="aiana-desc">
-                    AI Future enables us to focus more on content rather than
-                    editing motion. And it definitely makes our workflow
-                    smoother focus more on content
+<p class="aiana-desc">
+                    FameHack presents an 8-week, hands-on program designed to transform your video marketing.
+                    Learn how to create your own A.I. Clone, produce performance-driven ads, and apply the same toolkit to client work for new revenue streams.
+                    Includes weekly Zoom workshops, a private creator community, and a central dashboard packed with replays and bonuses.
+                    👉 Sign up through our official FameHack link to reserve your seat and start mastering AI-powered advertising today.
                   </p>
-                  <ul class="row aiana-list-2 list-unstyled">
-                    <li class="col-md-6">
-                      <i class="fa-solid fa-circle-check"></i>5 User seats
+<ul class="row aiana-list-2 list-unstyled">
+<li class="col-md-6">
+<i class="fa-solid fa-circle-check"></i>AI Ads Mastery Dashboard
                     </li>
-                    <li class="col-md-6">
-                      <i class="fa-solid fa-circle-check"></i>50,000 Words per
-                      month
+<li class="col-md-6">
+<i class="fa-solid fa-circle-check"></i>Zoom Meetings
                     </li>
-                    <li class="col-md-6">
-                      <i class="fa-solid fa-circle-check"></i> 70+ AI writing
+<li class="col-md-6">
+<i class="fa-solid fa-circle-check"></i> Facebook Group
                       tools
                     </li>
-                  </ul>
-                  <button class="aiana-button m-0">
-                    create a free ai video
-                  </button>
-                </div>
-
-                <!-- service img -->
-                <div class="col-md-6 position-relative sm-none">
-                  <img
-                    class="serviceSide"
-                    src="assets/images/services/detailsBG.jpg"
-                    alt="BG"
-                  />
-                </div>
-              </div>
-            </div>
-            <!-- service -->
-            <div class="row">
-              <div class="col-md-4 mt-5">
-                <div class="serviceSingle">
-                  <div class="serviceIcon">
-                    <img src="assets/images/serviceIcon/1.png" alt="Icon" />
-                  </div>
-                  <h4 class="aiana-h4 my-3">1. Complete Job</h4>
-                  <p class="aiana-desc mt-0">
-                    AI Future enables us to focus more on content rather than
-                    editing motion. And it definitely
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4 mt-5">
-                <div class="serviceSingle">
-                  <div class="serviceIcon">
-                    <img src="assets/images/serviceIcon/2.png" alt="Icon" />
-                  </div>
-                  <h4 class="aiana-h4 my-3">2. Complete Job</h4>
-                  <p class="aiana-desc mt-0">
-                    AI Future enables us to focus more on content rather than
-                    editing motion. And it definitely
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4 mt-5">
-                <div class="serviceSingle">
-                  <div class="serviceIcon">
-                    <img src="assets/images/serviceIcon/3.png" alt="Icon" />
-                  </div>
-                  <h4 class="aiana-h4 my-3">3. Complete Job</h4>
-                  <p class="aiana-desc mt-0">
-                    AI Future enables us to focus more on content rather than
-                    editing motion. And it definitely
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- section bg -->
-          <div class="section-bg">
-            <img src="assets/images/backgrounds/aiana-services.jpg" alt="BG" />
-          </div>
-        </section>
-
-        <!-- aiana testimonials -->
-        <section class="aiana-testimonials">
-          <div class="container">
-            <div class="row align-items-center">
-              <!-- thumb -->
-              <div class="col-2">
-                <div thumbsSlider="" class="testimonialThumb mx-auto">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img src="assets/images/testimonials/1.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="assets/images/testimonials/2.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="assets/images/testimonials/3.jpg" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- testimonial content -->
-              <div class="col-10">
-                <div class="swiperTestimonials">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="row align-items-center">
-                        <div class="col-5">
-                          <div class="testimonialImg">
-                            <img
-                              src="assets/images/testimonials/1.jpg"
-                              alt="Avatar"
-                            />
-
-                            <img
-                              class="quotes"
-                              src="assets/images/testimonials/quotes.png"
-                              alt="quotes"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-7 transfrom-x-130">
-                          <h3
-                            class="aiana-h3 fst-italic fw-medium lh-base opacity-0"
-                          >
-                            When an unknown printer took A galley of type and
-                            scrambled it to make a type specimen Book. It has
-                            survived not only Five centuries.
-                          </h3>
-                          <div class="about">
-                            <img
-                              src="assets/images/testimonials/1.jpg"
-                              alt="Avatar"
-                            />
-                            <h4 class="aiana-h4 small">Charli Hapan</h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="row align-items-center">
-                        <div class="col-5">
-                          <div class="testimonialImg">
-                            <img
-                              src="assets/images/testimonials/2.jpg"
-                              alt="Avatar"
-                            />
-
-                            <img
-                              class="quotes"
-                              src="assets/images/testimonials/quotes.png"
-                              alt="quotes"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-7 transfrom-x-130">
-                          <h3
-                            class="aiana-h3 fst-italic fw-medium lh-base opacity-0"
-                          >
-                            The tech support team was incredibly helpful and
-                            patient. They resolved my issue quickly and even
-                            provided some tips to prevent future problems.
-                          </h3>
-                          <div class="about">
-                            <img
-                              src="assets/images/testimonials/2.jpg"
-                              alt="Avatar"
-                            />
-                            <h4 class="aiana-h4 small">John Smith</h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="row align-items-center">
-                        <div class="col-5">
-                          <div class="testimonialImg">
-                            <img
-                              src="assets/images/testimonials/3.jpg"
-                              alt="Avatar"
-                            />
-
-                            <img
-                              class="quotes"
-                              src="assets/images/testimonials/quotes.png"
-                              alt="quotes"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-7 transfrom-x-130">
-                          <h3
-                            class="aiana-h3 fst-italic fw-medium lh-base opacity-0"
-                          >
-                            When an unknown printer took A galley of type and
-                            scrambled it to make a type specimen Book. It has
-                            survived not only Five centuries.
-                          </h3>
-                          <div class="about">
-                            <img
-                              src="assets/images/testimonials/3.jpg"
-                              alt="Avatar"
-                            />
-                            <h4 class="aiana-h4 small">Joseph Hapan</h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="container">
-          <!-- aiana clients -->
-          <div class="aiana-clients">
-            <img src="assets/images/clients2.png" alt="Clients" />
-          </div>
-        </div>
-
-        <!-- aiana blog -->
-        <section id="blog" class="aiana-blog">
-          <div class="container">
-            <h1 class="aiana-heading-2 mx-auto text-center">
-              AI-Powered Content
-            </h1>
-            <h2 class="aiana-h2 animateScrollText text-center">
-              Artificial Intelligence is The New Big <br />Thing in Technology
-            </h2>
-
-            <!-- blog list -->
-            <div class="row">
-              <div class="col-md-4 col-sm-6 pt-5">
-                <div class="blogSingle">
-                  <span class="tag">Article</span>
-                  <h4 class="aiana-h4 fw-medium text-center">
-                    Automate Your Image Procesing with deep image Ai
-                  </h4>
-                  <i class="featureIcon m-0 fa-solid fa-robot"></i>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 pt-5">
-                <div class="blogSingle">
-                  <span class="tag">Article</span>
-                  <h4 class="aiana-h4 fw-medium text-center">
-                    Automate Your Image Procesing with deep image Ai
-                  </h4>
-                  <i class="featureIcon m-0 fa-solid fa-robot"></i>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 pt-5">
-                <div class="blogSingle">
-                  <span class="tag">Article</span>
-                  <h4 class="aiana-h4 fw-medium text-center">
-                    Automate Your Image Procesing with deep image Ai
-                  </h4>
-                  <i class="featureIcon m-0 fa-solid fa-robot"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- aiana demo -->
-        <section class="aiana-view position-relative z-3">
-          <div class="container">
-            <div class="view position-relative">
-              <div class="inner position-relative z-3">
-                <h2 class="aiana-h2 animateScrollText small text-center">
-                  Using GenAI you can save hours each week creating long form
-                  content
-                </h2>
-                <button
-                  class="aiana-button d-flex justify-content-center align-items-center mx-auto"
-                >
-                  get started free
-                </button>
-                <div class="mt-5 viewImg">
-                  <img src="assets/images/view/ss.png" alt="SS" />
-                </div>
-              </div>
-              <img
-                src="assets/images/backgrounds/aiana-view.png"
-                alt="BG"
-                class="section-bg"
-              />
-            </div>
-          </div>
-        </section>
-
-        <!-- aiana footer -->
-        <footer class="position-relative">
-          <div class="container position-relative z-3">
-            <div class="row align-items-center">
-              <div class="col-md-4 sm-sm-100 tab-50">
-                <!-- block -->
-                <div class="block">
-                  <div class="navBrand">
-                    <img src="assets/images/hero/logo.png" alt="Logo" />
-                    <span style="color: white; font-weight: bold; font-size: larger;"
-                  </div>
-                  <p class="aiana-desc">
+</ul>
+<a class="aiana-button m-0 fh-btn" data-redirect-url="https://example.com/famehack-ai-ads-course" href="#">Sign Up Here (External Link)</a>
+</div>
+<!-- service img -->
+<div class="col-md-6 position-relative sm-none">
+<img alt="BG" class="serviceSide" src="assets/images/services/detailsBG.jpg"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- aiana footer -->
+<footer class="position-relative">
+<div class="container-fluid position-relative z-3">
+<div class="row align-items-center">
+<div class="col-md-4 sm-sm-100 tab-50">
+<!-- block -->
+<div class="block">
+<div class="navBrand">
+<img alt="Logo" src="assets/images/hero/logo.png"/>
+<span style="color: white; font-weight: bold; font-size: larger;">FameHack.AI</span>
+</div>
+<p class="aiana-desc">
                     AI Future enables us to focus more on content rather than
                     editing motion. And it definitely makes our workflow
                     smoother
                   </p>
-                  <ul class="aiana-social list-unstyled d-flex mt-5">
-                    <li>
-                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-4 sm-100 tab-50">
-                <div class="row">
-                  <div class="col-6 sm-sm-100">
-                    <!-- block -->
-                    <div class="block">
-                      <h4 class="aiana-h4 footer-h4">UI Design</h4>
-                      <ul class="footer-list list-unstyled aiana-menu">
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Estimation</a>
-                          <span class="sup"></span> <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Research</a>
-                          <span class="sup"></span> <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Storyboard</a>
-                          <span class="sup"></span> <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">User Flow</a>
-                          <span class="sup"></span> <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Information</a>
-                          <span class="sup"></span>
-                          <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Storyboard (AI)</a>
-                          <span class="sup"></span> <span class="dup"></span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-6 sm-sm-100">
-                    <!-- block -->
-                    <div class="block">
-                      <h4 class="aiana-h4 footer-h4">AI-Generated</h4>
-                      <ul class="footer-list aiana-menu list-unstyled">
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Define Idea</a>
-                          <span class="sup"></span> <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Competitor Reserach</a>
-                          <span class="sup"></span>
-                          <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Target Audience</a>
-                          <span class="sup"></span> <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Idea Validation</a>
-                          <span class="sup"></span> <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">
+<ul class="aiana-social list-unstyled d-flex mt-5">
+<li>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-4 sm-100 tab-50">
+<div class="row">
+<div class="col-6 sm-sm-100">
+<!-- block -->
+<div class="block">
+<h4 class="aiana-h4 footer-h4">UI Design</h4>
+<ul class="footer-list list-unstyled aiana-menu">
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Estimation</a>
+<span class="sup"></span> <span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Research</a>
+<span class="sup"></span> <span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Storyboard</a>
+<span class="sup"></span> <span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">User Flow</a>
+<span class="sup"></span> <span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Information</a>
+<span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Storyboard (AI)</a>
+<span class="sup"></span> <span class="dup"></span>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-6 sm-sm-100">
+<!-- block -->
+<div class="block">
+<h4 class="aiana-h4 footer-h4">AI-Generated</h4>
+<ul class="footer-list aiana-menu list-unstyled">
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Define Idea</a>
+<span class="sup"></span> <span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Competitor Reserach</a>
+<span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Target Audience</a>
+<span class="sup"></span> <span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Idea Validation</a>
+<span class="sup"></span> <span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">
                             Prototype using AI
                           </a>
-                          <span class="sup"></span>
-                          <span class="dup"></span>
-                        </li>
-                        <li class="anchorHover">
-                          <a href="#" class="aiana-desc">Build MVP Version</a>
-                          <span class="sup"></span>
-                          <span class="dup"></span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4 sm-sm-100 align-self-start">
-                <!-- block -->
-                <div class="block">
-                  <h4 class="aiana-h4 footer-h4">NewsLetter</h4>
-                  <p class="aiana-desc">
-                    With over 25 years of experience, we have crafted Thousands
-                    of Strategic discovery process years of experience, we have
-                    crafted
-                  </p>
-                  <form class="aiana-letter">
-                    <input type="email" name="Your email to start" />
-                    <button>Subscribe</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- section bg -->
-          <img
-            src="assets/images/backgrounds/footerBG.png"
-            alt="BG"
-            class="section-bg"
-          />
-        </footer>
-
-        <!-- copyright -->
-        <div class="copyright position-relative z-3">
-          <div
-            class="container h-100 d-flex align-items-center justify-content-between"
-          >
+<span class="sup"></span>
+<span class="dup"></span>
+</li>
+<li class="anchorHover">
+<a class="aiana-desc" href="#">Build MVP Version</a>
+<span class="sup"></span>
+<span class="dup"></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 sm-sm-100 align-self-start">
+<!-- block -->
+<div class="block">
+<h4 class="aiana-h4 footer-h4">NewsLetter</h4>
+<form class="aiana-letter">
+<input name="Your email to start" type="email"/>
+<button>Subscribe</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!-- section bg -->
+<img alt="BG" class="section-bg" src="assets/images/backgrounds/footerBG.png"/>
+</footer>
+<!-- copyright -->
+<div class="copyright position-relative z-3">
+<div class="container-fluid h-100 d-flex align-items-center justify-content-between">
             Copyright 2024 @AI Future. by userthemes
             <div class="paymentImgs"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+</div>
+</div>
+</div>
+</div>
+<!-- jQuery -->
+<script src="assets/dist/lib/jQuery/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/dist/framework/bootstrap/js/bootstrap.min.js"></script>
+<!-- Swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Shadder effect script -->
+<script src="assets/dist/lib/swiperSlider/swiper-gl.min.js"></script>
+<!-- circle text -->
+<script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
+<!-- gsap -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<!-- gsap scrollTrigger -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<!-- gsap scrollto -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+<!-- Smooth Scrollbar -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.4/smooth-scrollbar.js"></script>
+<!-- Marquee -->
+<script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.6.0/jquery.marquee.min.js"></script>
+<!-- Theme Files -->
+<script src="assets/dist/theme/js/aiana.js"></script>
+<script>
+      // Match each .project-single tile to its video's true aspect ratio
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.project-single video').forEach(v => {
+          const setAR = () => {
+            if (v.videoWidth && v.videoHeight) {
+              const ar = (v.videoWidth / v.videoHeight).toFixed(5);
+              v.closest('.project-single').style.aspectRatio = ar;
+              // Make sure the tile height is driven by aspect-ratio, not a fixed px height
+              v.closest('.project-single').style.height = 'auto';
+            }
+          };
+          if (v.readyState >= 1) setAR();
+          v.addEventListener('loadedmetadata', setAR, { once: true });
+        });
+      });
+    </script>
 
-    <!-- jQuery -->
-    <script src="assets/dist/lib/jQuery/jquery-3.7.1.min.js"></script>
+<section class="container py-5" id="order">
+<div class="fh-card">
+<h2 class="aiana-h2 text-center mb-3">Order Form</h2>
+<form id="fh-order-form" novalidate="">
+<div class="row g-3">
+<div class="col-md-6">
+<label class="fh-label" for="name">Your Name</label>
+<input class="fh-input" id="name" name="name" required=""/>
+</div>
+<div class="col-md-6">
+<label class="fh-label" for="email">Email</label>
+<input class="fh-input" id="email" name="email" required="" type="email"/>
+</div>
+<div class="col-12">
+<label class="fh-label" for="plan">Subscription</label>
+<select class="fh-select" id="plan" name="plan">
+<option value="">No subscription</option>
+<option value="Novice">Novice (6-month)</option>
+<option value="Creator">Creator (monthly)</option>
+<option value="Studio">Studio (monthly)</option>
+</select>
+</div>
+<div class="col-12">
+<label class="fh-label">À la carte services</label>
+<div class="row">
+<div class="col-md-6">
+<label class="d-block"><input name="services" type="checkbox" value="Ads (Under 45 Seconds)"/> Ads (Under 45 Seconds)</label>
+<label class="d-block"><input name="services" type="checkbox" value="Ads (90 Seconds)"/> Ads (90 Seconds)</label>
+<label class="d-block"><input name="services" type="checkbox" value="Music Videos"/> Music Videos</label>
+<label class="d-block"><input name="services" type="checkbox" value="Documentaries (12–15 Minutes)"/> Documentaries (12–15 Minutes)</label>
+</div>
+<div class="col-md-6">
+<label class="d-block"><input name="services" type="checkbox" value="Mini Movies (60 Minutes)"/> Mini Movies (60 Minutes)</label>
+<label class="d-block"><input name="services" type="checkbox" value="Feature Films (90 Minutes)"/> Feature Films (90 Minutes)</label>
+<label class="d-block"><input name="services" type="checkbox" value="App Development (Famous AI App MVP)"/> App Development (Famous AI App MVP)</label>
+<label class="d-block"><input name="services" type="checkbox" value="Kristine Mirelle AI Course"/> Kristine Mirelle AI Course</label>
+</div>
+</div>
+</div>
+<div class="col-12">
+<label class="fh-label" for="notes">Notes / Goals</label>
+<textarea class="fh-textarea" id="notes" name="notes"></textarea>
+</div>
+<div class="col-12 d-flex gap-2">
+<button class="fh-btn" type="submit">Submit Order</button>
+<a class="fh-btn" href="#" id="fh-pay-link" rel="noopener" target="_blank">Go to Checkout</a>
+</div>
+<p class="mt-2" id="fh-status"></p>
+</div>
+</form>
+</div>
+</section>
+<script id="fh-order-script">
+(function(){
+  function smoothScrollToOrder(){
+    var el = document.getElementById('order');
+    if (el && el.scrollIntoView) { try { el.scrollIntoView({behavior:'smooth',block:'start'}); } catch(e){ el.scrollIntoView(true);} }
+  }
 
-    <!-- Bootstrap JS -->
-    <script src="assets/dist/framework/bootstrap/js/bootstrap.min.js"></script>
+  // Listen for any link/button that already points to #order (no DOM modifications)
+  document.addEventListener('click', function(ev){
+    var t = ev.target;
+    if(!t) return;
+    // walk up to clickable
+    while(t && !t.getAttribute) { t = t.parentNode; }
+    if(!t) return;
+    var href = t.getAttribute('href');
+    if(href && href.indexOf('#order') !== -1){
+      setTimeout(smoothScrollToOrder, 0);
+    }
+  }, true);
 
-    <!-- Swiper script -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  // Order form (mailto fallback)
+  var form = document.getElementById('fh-order-form');
+  if(!form) return;
+  var status = document.getElementById('fh-status');
+  var payLink = document.getElementById('fh-pay-link');
+  if (payLink) { payLink.href = "#"; }
 
-    <!-- Shadder effect script -->
-    <script src="assets/dist/lib/swiperSlider/swiper-gl.min.js"></script>
-
-    <!-- circle text -->
-    <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
-
-    <!-- gsap -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-
-    <!-- gsap scrollTrigger -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-
-    <!-- gsap scrollto -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
-
-    <!-- Smooth Scrollbar -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.4/smooth-scrollbar.js"></script>
-
-    <!-- Marquee -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.6.0/jquery.marquee.min.js"></script>
-
-    <!-- Theme Files -->
-    <script src="assets/dist/theme/js/aiana.js"></script>
-  </body>
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var fd = new FormData(form);
+    var name = (fd.get('name')||'').toString().trim();
+    var email = (fd.get('email')||'').toString().trim();
+    var plan = (fd.get('plan')||'').toString();
+    var services = fd.getAll('services').join(', ');
+    var notes = (fd.get('notes')||'').toString();
+    if(!name || !email){
+      if(status){ status.textContent = 'Please enter your name and email.'; status.className='fh-error'; }
+      return;
+    }
+    var subject = encodeURIComponent('FameHack.AI Order: ' + (plan || 'A la carte'));
+    var body = encodeURIComponent(
+      'Name: ' + name + '\n' +
+      'Email: ' + email + '\n' +
+      'Subscription: ' + (plan||'None') + '\n' +
+      'Services: ' + (services||'None') + '\n\n' +
+      'Notes:\n' + notes + '\n\n' +
+      '(Submitted from site)'
+    );
+    window.location.href = 'mailto:sales@famehack.ai?subject=' + subject + '&body=' + body;
+    if(status){ status.textContent = 'Opening your email client…'; status.className='fh-success'; }
+  });
+})();</script></body>
 </html>
