@@ -156,3 +156,6 @@ footer a { color: var(--fh-cyan); } footer a:hover { color: var(--fh-pink); }
   .project-single video{ position: absolute; inset: 0; }
 }
 
+div div .fa-robot {
+  margin: 0 auto;
+}
